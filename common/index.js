@@ -34,7 +34,7 @@
 
     urlElt.onkeyup = function (event) {
         if (event.keyCode === 13) {
-            OpenSeadragonizer.open(urlElt.value);
+            location.href = '?img=' + urlElt.value;
         }
     };
 
